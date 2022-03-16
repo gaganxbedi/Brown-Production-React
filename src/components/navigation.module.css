@@ -17,10 +17,6 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
 }
-.image {
-  width: 194px;
-  height: 64px;
-}
 .Nav {
   flex: 0 0 auto;
   display: flex;
@@ -53,6 +49,10 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.image {
+  width: 194px;
+  height: 64px;
+}
 .CloseMobileMenu {
   display: flex;
   align-items: center;
@@ -61,6 +61,47 @@
 .icon2 {
   width: 24px;
   height: 24px;
+}
+.Nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.text {
+  color: var(--dl-color-scheme-white);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.text:hover {
+  color: var(--dl-color-scheme-brown);
+}
+.text1 {
+  color: var(--dl-color-scheme-white);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 41px;
+}
+.text1:hover {
+  color: var(--dl-color-scheme-brown);
+}
+.text2 {
+  color: var(--dl-color-scheme-white);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 41px;
+}
+.text2:hover {
+  color: var(--dl-color-scheme-brown);
+}
+.text3 {
+  color: var(--dl-color-scheme-white);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 41px;
+}
+.text3:hover {
+  color: var(--dl-color-scheme-brown);
 }
 .rootClassName {
   background-color: transparent;
@@ -81,6 +122,25 @@
     width: 149px;
     height: 49px;
   }
+  .Nav2 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
 }
 @media(max-width: 479px) {
   .max-width {
@@ -89,11 +149,23 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .image {
-    width: 130px;
-    height: 42px;
-  }
   .Icon {
     fill: var(--dl-color-scheme-white);
+  }
+  .MobileMenu {
+    background-color: #111521;
+  }
+  .image {
+    width: 144px;
+    height: 46px;
+  }
+  .text {
+    color: var(--dl-color-scheme-white);
+  }
+  .text1 {
+    color: var(--dl-color-scheme-white);
+  }
+  .text2 {
+    color: var(--dl-color-scheme-white);
   }
 }

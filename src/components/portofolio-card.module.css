@@ -43,15 +43,17 @@
 .see-project-container:hover {
   opacity: 1;
 }
-.firstName {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 23px;
+
+
+
+
+
+
+
+
+
+@media(max-width: 479px) {
+  .image-container {
+    margin-bottom: 0px;
+  }
 }
-
-
-
-
-
-

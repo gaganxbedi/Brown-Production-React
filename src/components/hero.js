@@ -26,7 +26,7 @@ const Hero = (props) => {
             />
           </span>
           <a
-            href="tel:+91"
+            href="tel:+919855763038"
             className={` ${styles['primary']} ${projectStyles['button-primary']} ${projectStyles['button-lg']} ${projectStyles['button']} `}
           >
             {props.primary}

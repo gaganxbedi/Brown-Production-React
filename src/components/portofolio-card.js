@@ -24,14 +24,12 @@ const PortofolioCard = (props) => {
           </button>
         </div>
       </div>
-      <span className={styles['firstName']}>{props.project_title}</span>
     </div>
   )
 }
 
 PortofolioCard.defaultProps = {
   rootClassName: '',
-  project_title: 'Office Life Campaign - Boost your creativity',
   image_alt: 'image',
   image_src:
     'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxwZW9wbGV8ZW58MHx8fHwxNjQzNzA1NTEx&ixlib=rb-1.2.1&w=300',
@@ -39,7 +37,6 @@ PortofolioCard.defaultProps = {
 
 PortofolioCard.propTypes = {
   rootClassName: PropTypes.string,
-  project_title: PropTypes.string,
   image_alt: PropTypes.string,
   image_src: PropTypes.string,
 }

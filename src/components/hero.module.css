@@ -49,3 +49,11 @@
     margin-bottom: 42px;
   }
 }
+@media(max-width: 479px) {
+  .text2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 120px;
+  }
+}

@@ -7,7 +7,9 @@ import styles from './services-card.module.css'
 
 const ServicesCard = (props) => {
   return (
-    <div className={projectStyles['services-card']}>
+    <div
+      className={` ${styles['ServicesCard']} ${projectStyles['services-card']} `}
+    >
       <div className={styles['container']}>
         <img
           alt={props.image_alt}

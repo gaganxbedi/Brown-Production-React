@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.image {
+  width: 194px;
+  height: 64px;
+}
+@media(max-width: 767px) {
+  .image {
+    width: 149px;
+    height: 49px;
+  }
+}
+@media(max-width: 479px) {
+  .image {
+    width: 144px;
+    height: 46px;
+  }
+}
