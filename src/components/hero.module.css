@@ -1,0 +1,51 @@
+.Hero {
+  height: 100vh;
+  position: relative;
+  max-height: 700px;
+  padding-top: 128px;
+  background-size: cover;
+  background-image: url("/playground_assets/linkfire-hero-2x-1500h.jpg");
+}
+.max-width {
+  margin-top: var(--dl-space-space-threeunits);
+}
+.heading-container {
+  flex: 1;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  color: var(--dl-color-scheme-white);
+  font-size: 56px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+.text2 {
+  color: var(--dl-color-scheme-white);
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.44;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.primary {
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+  background-color: #d10202;
+}
+@media(max-width: 991px) {
+  .heading-container {
+    max-width: 100%;
+    margin-bottom: 42px;
+  }
+}
